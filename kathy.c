@@ -1,8 +1,8 @@
-#include<stdio.h>
-#include "brono.c"
 
-int main()
+struct emp1
 {
-    sayHello();
-    return 0;
-}
+    char name[60];
+    int age;
+    char stat[50];
+    float salary;
+};
